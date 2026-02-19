@@ -1,7 +1,6 @@
 public class Main {
     public static void main(String[] args) {
         int suma = 0;
-        
         for (int i = 2; i <= 100; i++) {
             boolean primo = true;
             for (int j = 2; j * j <= i; j++) {
@@ -14,5 +13,13 @@ public class Main {
             }
         }
         System.out.println("Suma primers del 1 al 100: " + suma);
+        int producte = 1;
+        for (int c = 1; c <= 5; c++) {
+				producte = producte * c;
+				 System.out.print(c + " * ");
+		}
+		  System.out.println("= " + producte);
     }
+    
+    
 }
